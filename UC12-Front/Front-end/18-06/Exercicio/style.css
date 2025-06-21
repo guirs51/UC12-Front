@@ -1,0 +1,87 @@
+body {
+    background-color: rgba(0, 170, 255, 0.992);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* CIMA-DIREITA-BAIXO-CIMA*/
+    padding: 0px 15px 0px 15px;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 250%;
+    margin-right: 100px;
+}
+
+.logo {
+    height: 100px;
+}
+
+#Historia {
+    background-color: rgb(255, 254, 254);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+#Historia p {
+    font-size: 120%;
+}
+
+#Personagens {
+    background-color: rgb(255, 254, 254);
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding-bottom: 150px;
+    padding-top: 20px;
+
+}
+
+.div-personagens {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.div-personagens div {
+    background-color: rgba(0, 0, 0, 0.584);
+    margin-right: 30px;
+    border-radius: 50px;
+    height: 250px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.div-personagens p {
+    font-size: 130%;
+    color: white;
+}
+
+#final {
+    background-color: white;
+    width: 100%;
+    height: 200px;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130%;
+}
