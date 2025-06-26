@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+
+}
+
+header{
+    width: 100vw;
+    height: 8vh;
+    padding: 15px 0px 15px 0px;
+    background-color: rgba(0, 0, 0, 0.514);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0px;
+
+}
+
+header img {
+    height: 120%;
+}
+
+a{
+    text-decoration: none;
+}
+
+#container-banner {
+    background-image: url("https://wallpapers.com/images/hd/artwork-sailing-pirate-ship-0umsihy6sr9nhmiq.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    height:  95vh;
+    width: 100vw;
+}
