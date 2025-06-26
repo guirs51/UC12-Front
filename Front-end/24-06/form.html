@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+
+<body>
+    <main>
+        <section id="form-conteiner">
+            <form action="#" method="post">
+                <h2>Cadastro de usuario</h2>
+
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" required>
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="senha">Senha:</label>
+                <input type="password" name="senha" id="senha" required>
+
+                <label for="">Intereses</label>
+                <div>
+                    <input type="checkbox" name="intereses" value="js"> JS
+                </div>
+                <div>
+                    <input type="checkbox" name="intereses" value="css"> CSS
+                </div>
+                <div>
+                    <input type="checkbox" name="intereses" value="html"> HTML
+                </div>
+
+
+
+
+                <label for="">Sexo: </label>
+                <div>
+                    <input type="radio" name="sexo" value="masculino"> M
+                    <input type="radio" name="sexo" value="Femenino"> F
+                    <input type="radio" name="sexo" value="não-informado"> Prefiro não mencionar
+                </div>
+                <label for="">Curso</label>
+                <select name="" id="curso">
+
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JS</option>
+                </select>
+
+                <label for="Mensagem">Mensagem</label>
+                <textarea name="Mensagem" id="Mensagem" cols="30" rows="10"></textarea>
+
+                <button type="submit">Enviar</button>
+
+            </form>
+        </section>
+
+    </main>
+</body>
+
+</html>

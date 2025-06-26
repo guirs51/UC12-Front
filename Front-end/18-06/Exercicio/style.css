@@ -1,3 +1,8 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
 body {
     background-color: rgba(0, 170, 255, 0.992);
 }
@@ -38,7 +43,7 @@ a {
 }
 
 #Personagens {
-    background-color: rgb(255, 254, 254);
+    background-image: url("https://pop.proddigital.com.br/wp-content/uploads/sites/8/2021/04/invencivel-2.jpeg");
     width: 100%;
     height: 200px;
     display: flex;
@@ -84,4 +89,95 @@ a {
     justify-content: center;
     align-items: center;
     font-size: 130%;
+}
+
+#form {
+    background-image: url("https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEipQmvGyebokDaWu_h7Ez986O5_aEYinqabqrC2lGDmrhtMgni67zI9uRNQOiqTRSZvpxaLby9eHYrqVL-3KmXamfyzyJE43GKPlf4PM4IIJy5b7U3dvdmOrHvOwNZst2Xo-mkhM5ZR8Sp-qds7Ei9xE7BOdPxChyfxl8Kdgz_wKPyR6dS8pe581NPO4YA/s0/invincible-wallpaper-2.png");
+    background-size: cover;
+    /* background-attachment: fixed; */
+    height: 650px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#form div {
+    background-color: rgba(0, 0, 0, 0.753);
+    height: 400px;
+    width: 600px;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin: 10px;
+    height: 20px;
+    width: 80%;
+    padding: 5px 10px 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    border-color: #ccc;
+    /* box-shadow: 100px solid  black; */
+}
+
+button {
+    margin: 25px;
+    height: 35px;
+    width: 250px;
+    color: white;
+    border-radius: 15px;
+    background-color: rgba(0, 170, 255, 0.992);
+    align-items: flex-end;
+    border: 50px;
+    box-shadow: 100px solid  black;
+}
+
+button:hover{
+    background-color: rgba(32, 77, 199, 0.822);
+}
+
+#table{
+    background-color: white;
+    height: 800px;
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#table h2 {
+    font-size: 170%;
+    padding: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+table{
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 50%;
+    box-shadow: 0px 4px 10px black;
+    height: 200px;
+}
+
+th {
+    background-color: rgba(51, 50, 50, 0.685);
+    color: rgb(0, 0, 0);
+    padding: 8px;
+    text-align: left;   
+    text-align: center;
+    font-size: x-large;
+}
+
+td {
+    padding: 15px;
+    text-align: left;
 }
