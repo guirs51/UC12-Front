@@ -1,0 +1,19 @@
+:root {
+    --cor-textos: black;
+    --size-textos: 1.5em;
+}
+
+
+h1, h2, h3, h4, h5, h6, a {
+    color: var(--cor-textos);
+    font-size: var(--size-textos);
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    height: 300px;
+    width: 300px;
+}

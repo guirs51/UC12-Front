@@ -1,0 +1,19 @@
+h1 {
+    font-size: 20px;
+    color: red;
+    transition: font-size 10s ease, color 3s ease;
+}
+
+h1:hover {
+    font-size: 30px;
+    color: aqua;
+}
+
+#h2 {
+    opacity: 0;
+    transition: opacity 1s ease;
+ }
+
+ #h2.ativo {
+    opacity: 1;
+ }
