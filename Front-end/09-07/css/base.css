@@ -1,0 +1,23 @@
+:root {
+    --cor-primaria: red;
+    --cor-secundaria: black;
+    --cor-fonte: white;
+    --cor-fundo: rgba(0, 0, 0, 0.233);
+    --small: 12px;
+    --regular: 32px;
+    --large: 64px;
+    --xLarge: 100px;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+header{
+    background-color: var(--cor-secundaria);
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 600;
+    color: var(--cor-primaria);
+}

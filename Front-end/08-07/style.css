@@ -6,8 +6,13 @@
   box-sizing: border-box;
 }
 
+:root {
+  --cor-principal: rgba(3, 3, 3, 0.274);
+}
+
 /* Define a fonte padrão da página como Arial ou uma fonte sans-serif */
 body {
+  background-color: var(--cor-principal);
   font-family: Arial, sans-serif;
 }
 
@@ -113,7 +118,7 @@ nav {
 
 #banner {
   height: 80vh;
-  background-image: url('https://images.pexels.com/photos/19588191/pexels-photo-19588191.jpeg');
+  background-image: url('https://images.pexels.com/photos/26340873/pexels-photo-26340873.jpeg');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -124,12 +129,21 @@ header.change {
 }
 
 
-#cards-cpntainer {
+#cards-container {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
   gap: 5rem;
+}
+
+#flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5rem;
+  padding: 100px
 }
 
 .card {
@@ -203,3 +217,15 @@ header.change {
 .zoom-in {
   animation: zoom-in 1s ease;
 }
+
+
+.box {
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.box.visible {
+  
+  animation: fade-in 1s forwards;
+}
+

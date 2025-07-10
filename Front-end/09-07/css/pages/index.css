@@ -1,0 +1,6 @@
+#banner-principal {
+    font-size: var(--large);
+    background-image: url("https://images.pexels.com/photos/15962219/pexels-photo-15962219.jpeg");
+    background-position: center;
+    background-size: cover;
+}

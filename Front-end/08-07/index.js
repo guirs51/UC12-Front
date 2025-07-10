@@ -11,6 +11,25 @@ window.addEventListener('scroll', () => {
     if (window.scrollY > 0) {
         header.classList.add('change');
     } else {
-        header.classList.remove('change')
+        header.classList.remove('change');
     }
 })
+
+const box = document.querySelector('.box');
+
+const observer = new IntersectionObserver((entries, observer) => {
+
+    entries.forEach(entry => {
+
+        if (entry.isIntersecting){
+
+            entry.target.classList.add('visible');
+
+
+            observer.unobserve(entry.target);
+        }
+    });
+});
+
+
+observer.observe(box);
