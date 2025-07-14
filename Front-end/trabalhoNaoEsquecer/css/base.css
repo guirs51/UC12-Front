@@ -1,19 +1,39 @@
 :root {
-    --cor-textos: black;
-    --size-textos: 1.5em;
+    --cor-textos: white;
+    --size-texto-principal: 3em;
+    --size-texto-segundario: 1.5em;
+    --cor-primaria: rgb(39, 25, 99);
+    --cor-segundaria: rgb(252, 231, 45);
+}
+
+hr {
+    border: 1px solid var(--cor-segundaria);
+    box-shadow: 3px;
 }
 
 
-h1, h2, h3, h4, h5, h6, a {
-    color: var(--cor-textos);
-    font-size: var(--size-textos);
+body {
+    background-color: var(--cor-primaria);
+    
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--cor-segundaria);
+    font-size: var(--size-texto-principal);
+}
+
+p {
+  color: var(--cor-textos);
+  font-size: var(--size-texto-segundario);
 }
 
 a {
+    color: var(--cor-segundaria);
     text-decoration: none;
+    font-size: var(--size-texto-segundario);
 }
 
 img {
-    height: 300px;
-    width: 300px;
+    height: 500px;
+    width: 500px;
 }

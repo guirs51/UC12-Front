@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Cards com Modal</title>
+    <!-- Link do Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Card 1 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://i.ytimg.com/vi/Z0KCtuBbz_w/maxresdefault.jpg" class="card-img-top"
+                        alt="Imagem Card 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Red Dead Redemption II</h5>
+                        <p class="card-text">Uma saga épica sobre honra e sobrevivência no crepúsculo do Velho Oeste,
+                            com um nível de imersão e realismo sem precedentes.</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card1Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2023/12/poster-gta-6-rockstar.jpg"
+                        class="card-img-top" alt="Imagem Card 2">
+                    <div class="card-body">
+                        <h5 class="card-title">GTA VI</h5>
+                        <p class="card-text">Grand Theft Auto VI é um futuro jogo eletrônico de ação e aventura
+                            desenvolvido pela Rockstar Studios e publicado pela Rockstar Games</p>
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#card2Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="col-md-4">
+                <div class="card h-100">
+                    <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2322010/header.jpg?t=1750909504"
+                        class="card-img-top" alt="Imagem Card 3">
+                    <div class="card-body">
+                        <h5 class="card-title">God of War Ragnarök</h5>
+                        <p class="card-text">God of War Ragnarök, a sequência do aclamado God of War (2018), acompanha
+                            Kratos e Atreus em sua jornada pelos Nove Reinos durante o Ragnarök, o fim dos tempos na
+                            mitologia nórdica</p>
+                        <button type="button" class="btn btn-primary mt-3" data-bs-toggle="modal"
+                            data-bs-target="#card3Modal">
+                            Mais Informações
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- Modal para o Card 1 -->
+    <div class="modal fade" id="card1Modal" tabindex="-1" aria-labelledby="card1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card1ModalLabel">Red Dead Redemption II</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <p>
+                        Este jogo de ação e aventura da Rockstar Games é ambientado no final do século XIX nos Estados
+                        Unidos, explorando a vida de Arthur Morgan, um fora-da-lei do bando Van der Linde. Com gráficos
+                        deslumbrantes e um realismo de tirar o fôlego, o jogo oferece um mundo aberto rico em detalhes,
+                        histórias complexas e interações que capturam a luta pela sobrevivência e o dilema moral em um
+                        Oeste em extinção.
+                    </p>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Card 2 -->
+    <div class="modal fade" id="card2Modal" tabindex="-1" aria-labelledby="card2ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card2ModalLabel">The Elder Scrolls V: Skyrim</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Será o oitavo título principal da franquia Grand Theft Auto, sendo o sucessor de Grand Theft Auto V
+                    e o décimo sexto jogo eletrônico da série.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para o Card 3 -->
+    <div class="modal fade" id="card3Modal" tabindex="-1" aria-labelledby="card3ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="card3ModalLabel">God of War Ragnarök</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    God of War Ragnarök é um jogo eletrônico de ação-aventura desenvolvido pela Santa Monica Studio e
+                    publicado pela Sony Interactive Entertainment. A história de God of War Ragnarök se desenrola alguns
+                    anos após os eventos do jogo anterior, com Kratos e Atreus enfrentando os desafios do inverno de
+                    Fimbulwinter, que precede o Ragnarök
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script do Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
