@@ -1,0 +1,13 @@
+.banner-container {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: -5px;
+    background-image: url("https://images.pexels.com/photos/7987751/pexels-photo-7987751.jpeg");
+    background-position: 50%;
+    background-size: cover;
+    height: 80vh;
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    justify-content: center;
+    align-items: center;
+}

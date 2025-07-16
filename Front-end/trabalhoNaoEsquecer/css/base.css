@@ -1,39 +1,35 @@
 :root {
-    --cor-textos: white;
-    --size-texto-principal: 3em;
-    --size-texto-segundario: 1.5em;
-    --cor-primaria: rgb(39, 25, 99);
-    --cor-segundaria: rgb(252, 231, 45);
+    --size-primaria: 3em;
+    --size-segundario: 1.5em;
+    --cor-primaria: black;
+    --cor-segundaria: white;
 }
 
-hr {
-    border: 1px solid var(--cor-segundaria);
-    box-shadow: 3px;
-}
-
-
-body {
+header {
     background-color: var(--cor-primaria);
-    
-}
-
-h1, h2, h3, h4, h5, h6 {
+    height: 8vh;
+    width: 100vw;
     color: var(--cor-segundaria);
-    font-size: var(--size-texto-principal);
-}
-
-p {
-  color: var(--cor-textos);
-  font-size: var(--size-texto-segundario);
 }
 
 a {
-    color: var(--cor-segundaria);
+    font-size: var(--size-segundario);
+    color: var(--cor-white);
     text-decoration: none;
-    font-size: var(--size-texto-segundario);
 }
 
-img {
-    height: 500px;
-    width: 500px;
+.edit {
+    width: 100vw;
+    height: 40vh;
+}
+
+.edit img {
+    height: 40vh;
+    width: 100vw;
+    background-position: 50%;
+    background-size: cover;
+}
+.img-kobe {
+    width: 50px;
+    height: 50px;
 }
