@@ -1,0 +1,59 @@
+@media (max-width: 700px) {
+    .perfil {
+        flex-direction: column;
+        gap: 3px;
+    }
+
+    .perfil img {
+        width: 6em;
+        height: 6em;
+    }
+
+    .texto-principal {
+        font-size: .5em;
+    }
+}
+
+@media (max-width: 1125px) {
+
+  /* Altera a direção do header para coluna (um item abaixo do outro)
+       Adiciona espaçamento vertical entre os elementos */
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  /* Agora o ícone do menu é exibido em dispositivos móveis */
+  .show {
+    display: flex;
+  }
+
+  /* Menu de navegação no mobile:
+       - Mostra os itens em coluna (verticalmente)
+       - Centraliza os itens
+       - Largura total da tela
+       - Inicialmente oculto (max-height 0 e opacity 0)
+       - Transição suave para a exibição do menu */
+  nav {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-height: 0;
+    opacity: 0;
+
+    /* Transição suave:
+         Quando max-height ou opacity forem alteradas (via classe, clique, etc.),
+         a mudança será animada por 0.5s com curva "ease" */
+    transition: max-height 0.5s ease, opacity 0.5s ease;
+  }
+
+  /* Quando a classe 'ativo' for adicionada ao nav (fazemos isso por JS),
+       o menu é exibido:
+       - Altura máxima suficiente para mostrar os itens
+       - Opacidade total */
+  nav.ativo {
+    max-height: 500px;
+    /* valor ajustável conforme o conteúdo do menu */
+    opacity: 1;
+  }
+}
