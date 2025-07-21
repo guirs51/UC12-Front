@@ -6,22 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 </head>
 
 <body>
-    <Header>
+    <Header id="Home">
         <h1>Logo</h1>
         <nav>
-            <a href="">Home</a>
-            <a href="">Sobre</a>
-            <a href="">Projetos</a>
+            <a href="#Home">Home</a>
+            <a href="#hero">Sobre</a>
+            <a href="#projetos">Projetos</a>
         </nav>
     </Header>
 
     <main>
-        <section class="hero">
-                
+        <section id="hero">
+            <div class="perfil">
+                <img src="https://i.pinimg.com/1200x/19/0a/fc/190afc31e3dd8e7804652d509272edbc.jpg" alt="perfil">
+                <div class="texto-principal">
+                    <h2 class="bebas-neue-regular">Designer</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio excepturi doloribus saepe adipisci
+                        <br>
+                        nesciunt provident ipsam fugit. Pariatur obcaecati omnis quia aliquam. Id maxime qui facilis
+                        ducimus <br>
+                        adipisci error enim?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <div class="card-body">
+                <div class="card slide-in">
+                    <img src="https://i.pinimg.com/1200x/f5/99/a8/f599a8854990f70f815e66af3b88337d.jpg" alt="">
+                    <p>As cores desse ambiente conversam entre si, criando equilíbrio e conforto visual.</p>
+                    <button>Ver Mais</button>
+                </div>
+                <div class="card slide-in">
+                    <img src="https://i.pinimg.com/1200x/d7/07/11/d7071198d60d8058aa6c5994cca72d9e.jpg" alt="">
+                    <p>Tons neutros e detalhes em madeira trazem aconchego e sofisticação ao espaço.</p>
+                    <button>Ver Mais</button>
+                </div>
+                <div class="card slide-in">
+                    <img src="https://i.pinimg.com/736x/dd/2e/7c/dd2e7c6b7585a426bdadac2589e9f956.jpg" alt="">
+                    <p>A paleta suave, junto à luz natural, valoriza cada elemento do ambiente.</p>
+                    <button>Ver Mais</button>
+                </div>
+            </div>
         </section>
     </main>
 

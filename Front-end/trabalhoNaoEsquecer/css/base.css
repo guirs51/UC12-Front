@@ -1,15 +1,22 @@
 :root {
     --size-primaria: 3em;
-    --size-segundario: 1.5em;
-    --cor-primaria: black;
-    --cor-segundaria: white;
+    --size-segundario: 1.20em;
+    --cor-segundaria: rgb(20, 20, 20);
 }
 
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
 header {
-    background-color: var(--cor-primaria);
-    height: 8vh;
+    background-color: var(--cor-segundaria);
+    height: 10vh;
     width: 100vw;
-    color: var(--cor-segundaria);
+    color: rgb(2, 69, 107);
 }
 
 a {
@@ -18,18 +25,82 @@ a {
     text-decoration: none;
 }
 
-.edit {
-    width: 100vw;
-    height: 40vh;
+h2 {
+    font-size: var(--size-primaria);
+    font-family: Bebas;
 }
 
-.edit img {
-    height: 40vh;
+p {
+    font-size: var(--size-segundario);
+}
+
+#hero {
     width: 100vw;
-    background-position: 50%;
+    height: 40vh;
+    background-image: url("https://i.pinimg.com/1200x/b2/de/a6/b2dea6f5519b74635c5e887e99098459.jpg");
+    background-position: center;
+    object-fit: cover;
     background-size: cover;
 }
-.img-kobe {
-    width: 50px;
-    height: 50px;
+
+.perfil img{
+    width: 11em;
+    height: 11em;
+    border-radius: 100%;
+}
+
+.card-body {
+    width: 100vw;
+    height: 60vh;
+    background-color: var(--cor-segundaria);
+}
+
+.card {
+    width: 25vw;
+    height: 20em;
+    border: 3px solid rgb(2, 69, 107);
+    background-color: rgba(255, 255, 255, 0.371);
+    border-radius: 5px;
+}
+
+.card img {
+    width: 100%;
+    height: 10em;
+}
+
+footer {
+    width: 100vw;
+    height: 10vh;
+    background-image: url("https://i.pinimg.com/1200x/b2/de/a6/b2dea6f5519b74635c5e887e99098459.jpg");
+}
+
+.card button {
+    width: 50%;
+    height: 2em;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: rgb(2, 69, 107);
+    color: rgba(255, 255, 255, 0.616);
+    transition: color 1s ease;
+}
+
+.card button:hover{
+    color: white;
+}
+
+
+@keyframes slide-in {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in {
+  animation: slide-in 1s ease;
 }
