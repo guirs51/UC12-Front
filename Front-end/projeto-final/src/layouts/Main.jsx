@@ -2,6 +2,9 @@ import React from 'react'
 import './main.css';
 import { BiSolidMouseAlt } from "react-icons/bi";
 import Botao from '../components/botao';
+import Card from '../components/Card';
+import CardElevate from '../components/CardElevate';
+
 
 function Main() {
     return (
@@ -45,6 +48,28 @@ function Main() {
                 <div className='destination-botao'>
                     <h1>Recommended Destination</h1>
                     <Botao texto='View More'></Botao>
+                </div>
+                <div className='cartoes'>
+                    <Card texto='Caspian Sea Beach, Aktau' p='A Unique Seaside Escape in Central Asia' img='https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/colin-watts-M1ObxvsWVhY.webp' day='9' price='1,580'></Card>
+                    <Card texto='Pink Beach, Komodo Island' p='A Rare Natural Wonder with Blush-Toned Sand' img='https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/matheen-faiz-OcrTk7qXcdM.webp' day='7' price='2,550'></Card>
+                    <Card texto='Tanjung Bira, South Sulawesi' p='White Sands and Turquoise Waters Away from the Crowds' img='https://live.sociolib.com/nomad/wp-content/uploads/sites/15/2025/07/rayyu-maldives-Nbu3v_UDg6w.webp' day='5' price='3,750'></Card>
+                </div>
+            </section>
+
+            <section id='elevate'>
+                <div className='elevate-colum'>
+                    <div className='elevate-texto'>
+                        <h1>Elevate Your Epic <br /> Adventures</h1>
+                        <p className='elevate-p'>We are a travel agency that specializes <br /> in customizing trips according to your <br />preferences, needs, and desires</p>
+                    </div>
+                    <hr className='elevate-hr' />
+
+                    <div className='elevate-cartoes'>
+                        <CardElevate></CardElevate>
+                        <CardElevate></CardElevate>
+                        <CardElevate></CardElevate>
+                        <CardElevate></CardElevate>
+                    </div>
                 </div>
             </section>
         </main >

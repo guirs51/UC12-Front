@@ -1,0 +1,48 @@
+.card-body {
+    background-color: white;
+    width: 20em;
+    height: 15em;
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    border-radius: 5%;
+    font-size: 1.2em;
+}
+
+.card-colum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-row {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-right: 100px;
+}
+
+.ciclo-elevate {
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    background-color: rgba(236, 234, 234, 0.568);
+    border: 1px solid rgba(0, 0, 0, 0.055);
+    font-size: 2em;
+    margin-left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 200px;
+}
+
+.p-numb {
+    color: black;
+    font-size: 1.2em;
+    
+}
+
+.elevate-p2 {
+    color: black;
+    font-size: 1em;
+}

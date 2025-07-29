@@ -8,9 +8,7 @@ function Hearder() {
 
     const links = document.getElementById('link');
     const passar = () => {
-        if (links.classList.contains('none')) {
-            links.classList.remove('none')
-        }
+            links.classList.remove('none') 
     }
 
     const voltar = () => {
@@ -34,7 +32,7 @@ function Hearder() {
             </div>
 
 
-            <div className='links none' id='link' onMouseLeave={voltar} onMouseEnter={passar}>
+            <div className='links none' id='link' onMouseLeave={voltar}>
                 <a href="">About</a>
                 <a href="">Services</a>
                 <a href="">Single Destination</a>
